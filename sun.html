@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Tasks</title>
+    <style>
+        /* Q1: Simple Div */
+        #box {
+            background-color:red;
+            color: white;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        /* Q2: Headings with Red Color */
+        .heading {
+            color: rgb(221, 0, 255);
+        }
+
+        /* Q3: Centered Heading */
+        .centered-heading {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        /* Q4: Font Family */
+        body {
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        /* Q5:  Divs */
+        #outer {
+            width: 300px;
+            height: 200px;
+            background-color: lightsalmon;
+            padding: 20px;
+        }
+
+        #inner {
+            width: 150px;
+            height: 100px;
+            background-color: rgb(134, 5, 5);
+            text-align: center;
+            line-height: 100px;
+        }
+
+        /* Q6: Box Model Example */
+        .box-model {
+            width: 250px;
+            height: 150px;
+            background-color: rgb(123, 8, 165);
+            padding: 50px;
+            margin: 30px;
+            border: 20px solid rgb(132, 162, 9);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Q1: Create a simple div with an id "box" -->
+    <h2>Q1: The Div</h2>
+    <div id="box">This is a Red box.</div>
+
+    <!-- Q2: Create 3 headings with h1, h2, h3 -->
+    <h2>Q2: Headings with Red Color</h2>
+    <h1 class="heading"> H1 is a big</h1>
+    <h2 class="heading"> H2 is a middle</h2>
+    <h3 class="heading">H3 is a small</h3>
+
+    <!-- Q3: Create a centered heading with capitalized text -->
+    <h2>Q3:  Heading</h2>
+    <h1 class="centered-heading">this is a centered heading</h1>
+
+    <!-- Q4: Set the font family of all content to "Times New Roman" -->
+    <h2>Q4: Font Family Applied </h2>
+    <p>This text is for html & css.</p>
+
+    <!-- Q5: Create one div inside another -->
+    <h2>Q5:  Divs</h2>
+    <div id="outer">
+        Outer
+        <div id="inner">Inner</div>
+    </div>
+
+    <!-- Q6: Create a page using all box model properties -->
+    <h2>Q6: Box Model proprety</h2>
+    <div class="box-model">This box demonstrates the box model.</div>
+
+</body>
+</html>
